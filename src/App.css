@@ -1,0 +1,317 @@
+.App {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.logo {
+  background-image: url('./images/qwecircling.png');
+  /* animation: logo-spin infinite 20s linear; */
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.quas {
+  height: 75px;
+  width: 75px;
+  background-image: url('./images/Quas.png');
+  font-size: 50px;
+  
+}
+
+.wex {
+  height:75px;
+  width: 75px;
+  background-image: url('./images/Wex.png');
+  font-size: 50px;
+}
+
+.exort {
+  height:75px;
+  width: 75px;
+  background-image: url('./images/Exort.png');
+  font-size: 50px;
+}
+
+.invoke {
+  height:75px;
+  width: 75px;
+  background-image: url('./images/Invoke.png');
+  font-size: 50px;
+}
+
+.cold-snap {
+  background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/f/fb/Cold_Snap_icon.png?version=84b7b46ee3c9ca01f352cef2a9acd622');
+  height: 128px;
+  width: 128px;
+}
+.ice-wall {
+  background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/2/2d/Ice_Wall_icon.png?version=df95947e3800426388b965ea2aa66fd4');
+  height: 128px;
+  width: 128px;
+}  
+.ghost-walk {
+  background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/c/c8/Ghost_Walk_icon.png?version=be47a48d4e4dd74ec5068632249a17e5');
+  height: 128px;
+  width: 128px;
+}
+.emp {
+  background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/9/97/EMP_icon.png?version=3a1020cfe6dee71d673688ae1cf0a3b0');
+  height: 128px;
+  width: 128px;
+}
+.tornado {
+  background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/e/e1/Tornado_icon.png?version=c9735724bbd1ba594c4f1a01238b2411');
+  height: 128px;
+  width: 128px;
+}
+.alacrity {
+  background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/1/1b/Alacrity_icon.png?version=6981469998724a2d599469ff4f488faf');
+  height: 128px;
+  width: 128px;
+}
+.sun-strike {
+  background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/8/83/Sun_Strike_icon.png?version=7e66a71f23d63730054f946958840f0c');
+  height: 128px;
+  width: 128px;
+}
+.chaos-meteor {
+  background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/7/76/Chaos_Meteor_icon.png?version=c13dd32ad0b830572b70b9f910d2f1a8');
+  height: 128px;
+  width: 128px;
+}
+.forge-spirits {
+  background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/c/cb/Forge_Spirit_icon.png?version=605e7c6b29fa10613e477aa982fb71e3');
+  height: 128px;
+  width: 128px;
+}
+.defening-blast {
+  background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/d/dd/Deafening_Blast_icon.png?version=08dbb63ff55e521c3e9ab4337f76c3d5');
+  height: 128px;
+  width: 128px;
+}
+.blank-spell {
+  background-image: url('./images/BlankSpell.png');
+  height: 128px;
+  width: 128px;
+}
+.blank-orb {
+  background-image: url('./images/BlankOrb.png');
+  height: 75px;
+  width: 75px;
+}
+html {
+  background: url('https://steemitimages.com/0x0/http://cingularmobilesolutions.net/wp-content/uploads/2017/07/dota-2-invoker-wallpaper-hd-best-of-invoker-dota-2-wallpaper-wallpapersafari-of-dota-2-invoker-wallpaper-hd.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+main {
+  margin: 0 auto;
+  position: relative;
+  background-color: rgba(143, 143, 143, 0.377);
+  width: 400px;
+  height: 700px;
+  border-radius: 10px;
+  
+}
+#border {
+  border: 5px outset rgb(36, 36, 36);
+}
+.buttons {
+  position: absolute;
+  left: 50px;
+  top: 600px;
+  display: flex;
+}
+.orbs {
+  position: absolute;
+  left: 75px;
+  top: 500px;
+  display: flex;
+}
+.invoked {
+  position: absolute;
+  left: 135px;
+  top: 340px;
+}
+.challenge{
+  position: absolute;
+  left: 100px;
+  top: 70px;
+}
+
+.time {
+  position: absolute;
+  top: 10px;
+  width: 400px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#start {
+  position: relative;
+  bottom: 10px;
+  margin-right: 40px;
+  width: 100px;
+  font-size: 20px;
+}
+
+.blank-challenge {
+  background: url('./images/BlankChallenge.png');
+  height: 200px;
+  width: 200px;
+} 
+
+.proleader {
+  width:300px;
+  position: absolute;
+  right: 1000px;
+  left:100px;
+}
+#pro-scores {
+  position: absolute;
+  top: 315px;
+  left: 65px;
+}
+
+.spell-cheat {
+  width: 300px;
+  position: absolute;
+  left: 1000px;
+  top: 100px;
+  right: 100px;
+}
+.spells {
+  position: absolute;
+  width: 300px;
+  height: 325px;
+}
+.scores {
+  position: fixed;
+  width: 300px;
+  height: 700px;
+}
+p {
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.submit {
+  position: absolute;
+  bottom: 20px;
+}
+#delete-score {
+  background-image: url('https://d1u5p3l4wpay3k.cloudfront.net/dota2_gamepedia/1/18/Emoticon_hahano.gif?version=06ef17cb2a48a0ccbe3f6ea2734c93ef');
+  height: 35px;
+  width: 35px;
+  float: right;
+}
+#leader-score {
+  width: 300px;
+  position: relative;
+  right: 45px;
+}
+#name-score {
+  width: 300px;
+  
+}
+.c-cold-snap{
+  background-image: url('./images/challenge-spells/c-cold-snap.png');
+  height: 200px;
+  width: 200px;
+}
+.c-ice-wall {
+  background-image: url('./images/challenge-spells/c-ice-wall.png');
+  height: 200px;
+  width: 200px;
+}
+.c-ghost-walk {
+  background-image: url('./images/challenge-spells/c-ghost-walk.png');
+  height: 200px;
+  width: 200px;
+}
+.c-emp {
+  background-image: url('./images/challenge-spells/c-emp.png');
+  height: 200px;
+  width: 200px;
+}
+.c-tornado {
+  background-image: url('./images/challenge-spells/c-tornado.png');
+  height: 200px;
+  width: 200px;
+}
+.c-alacrity {
+  background-image: url('./images/challenge-spells/c-alacrity.png');
+  height: 200px;
+  width: 200px;
+}
+.c-sun-strike {
+  background-image: url('./images/challenge-spells/c-sun-strike.png');
+  height: 200px;
+  width: 200px;
+}
+.c-chaos-meteor {
+  background-image: url('./images/challenge-spells/c-chaos-meteor.png');
+  height: 200px;
+  width: 200px;
+}
+.c-forge-spirits {
+  background-image: url('./images/challenge-spells/c-forge-spirits.png');
+  height: 200px;
+  width: 200px;
+}
+.c-defening-blast {
+  background-image: url('./images/challenge-spells/c-defening-blast.png');
+  height: 200px;
+  width: 200px;
+}
+.cheat-sheet {
+  height: 30px;
+  width: 30px;
+  margin-top: 13px;
+}
+.cheat-quas {
+  height: 30px;
+  width: 30px;
+  background-image: url('./images/original-images/Quas_icon.png');
+  object-fit: fill;
+}
+.cheat-wex {
+  height: 30px;
+  width: 30px;
+  background-image: url('./images/original-images/Wex_icon.png')
+}
+.cheat-exort {
+  height: 30px;
+  width: 30px;
+  background-image: url('./images/original-images/Exort_icon.png')
+}
+#spells-inline {
+  display: flex;
+  flex-direction: column;
+}
+#blank-border {
+  border-left: 30px solid black;
+
+}
